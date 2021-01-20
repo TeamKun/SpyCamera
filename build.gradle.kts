@@ -11,6 +11,8 @@ repositories {
     jcenter()
     mavenCentral()
     maven(Dependencies.Spigot.repository)
+    maven(Dependencies.SonaType.repository)
+    maven(Dependencies.ProtocolLib.repository)
 }
 
 dependencies {
@@ -18,6 +20,7 @@ dependencies {
     compileOnly(Dependencies.Spigot.annotations)
     kapt(Dependencies.Spigot.annotations)
     compile(Dependencies.Kotlin.stdlib)
+    compileOnly(Dependencies.ProtocolLib.core)
     testCompile(Dependencies.JUnit.core)
 }
 
