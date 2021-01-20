@@ -18,8 +18,7 @@ open class HDSpyCamera : SpyCamera() {
     override val name = "HDスパイカメラ"
     override val description = listOf(
             "右クリックでスパイカメラを設置・使用",
-            "左クリックでスパイカメラを解除",
-            "カメラ起動中に左クリックで矢を発射"
+            "左クリックでスパイカメラを解除"
     )
     override val itemStack = ItemStack(Material.GOLDEN_PICKAXE)
 

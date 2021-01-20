@@ -13,7 +13,8 @@ class HDSpyCameraArrow : HDSpyCamera() {
     override val name = "HDスパイカメラ（矢）"
     override val description = listOf(
             "右クリックでスパイカメラを設置・使用",
-            "左クリックでスパイカメラを解除"
+            "左クリックでスパイカメラを解除",
+            "カメラ起動中に左クリックで矢を発射"
     )
     override val itemStack = ItemStack(Material.GOLDEN_PICKAXE)
 
